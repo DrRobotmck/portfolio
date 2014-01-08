@@ -1,0 +1,47 @@
+.no-svg .webicon.mail {
+background: url("webicons/webicon-mail-m.png"); }
+
+.no-svg .webicon.mail.large {
+background: url("webicons/webicon-mail.png"); }
+
+.no-svg .webicon.mail.small {
+background: url("webicons/webicon-mail-s.png"); }
+
+.svg .webicon.mail {
+background: url("webicons/webicon-mail.svg"); }
+
+.no-svg .webicon.tumblr {
+background: url("webicons/webicon-tumblr-m.png"); }
+
+.no-svg .webicon.tumblr.large {
+background: url("webicons/webicon-tumblr.png"); }
+
+.no-svg .webicon.tumblr.small {
+background: url("webicons/webicon-tumblr-s.png"); }
+
+.svg .webicon.tumblr {
+background: url("webicons/webicon-tumblr.svg"); }
+
+.no-svg .webicon.github {
+background: url("webicons/webicon-github-m.png"); }
+
+.no-svg .webicon.github.large {
+background: url("webicons/webicon-github.png"); }
+
+.no-svg .webicon.github.small {
+background: url("webicons/webicon-github-s.png"); }
+
+.svg .webicon.github {
+background: url("webicons/webicon-github.svg"); }
+
+.no-svg .webicon.linkedin {
+background: url("webicons/webicon-linkedin-m.png"); }
+
+.no-svg .webicon.linkedin.large {
+background: url("webicons/webicon-linkedin.png"); }
+
+.no-svg .webicon.linkedin.small {
+background: url("webicons/webicon-linkedin-s.png"); }
+
+.svg .webicon.linkedin {
+background: url("webicons/webicon-linkedin.svg"); }

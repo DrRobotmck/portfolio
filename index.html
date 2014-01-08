@@ -71,7 +71,7 @@
 				</div>
 				<div class="small-12 medium-8 large-8 columns">
 
-					<span id="blurb">Hi, I'm McKenneth.<br> A Jr. Web Developer on a mission to make the Internet a beautiful place for you and me. As a graduate of General Assembly's Web Development Immersive - New York, I specialize in Ruby on Rails, JavaScript/jQuery and BDD. I am a detail-oriented, coffee-fueled thinker focused on hand-rolled design and creative solutions.</span>
+					<span id="blurb">Hi, I'm McKenneth.<br> A Web Developer on a mission to make the Internet a beautiful place for you and me. As a graduate of General Assembly's Web Development Immersive - New York, I specialize in Ruby on Rails, JavaScript/jQuery and BDD. I am a detail-oriented, coffee-fueled thinker focused on hand-rolled design and creative solutions.</span>
 
 					<ul class="small-block-grid-4 medium-block-grid-4"><hr>
 						<li><a href="http://www.github.com/DrRobotmck" target="_blank"><img class="links" src="css/webicons/webicon-github.svg"></a></li>
@@ -102,8 +102,9 @@
    beforeMove: function(index) {}, // This option accepts a callback function. The function will be called before the page moves.
    afterMove: function(index) {}, // This option accepts a callback function. The function will be called after the page moves.
    loop: false, // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
-   responsiveFallback: false // You can fallback to normal page scroll by defining the width of the browser in which you want the responsive fallback to be triggered. For example, set this to 600 and whenever the browser's width is less than 600, the fallback will kick in.
- });</script>
+   // responsiveFallback: 600 // You can fallback to normal page scroll by defining the width of the browser in which you want the responsive fallback to be triggered. For example, set this to 600 and whenever the browser's width is less than 600, the fallback will kick in.
+ });
+</script>
 <script type="text/javascript">
 	$(function(){
 		$("#caruso").owlCarousel({

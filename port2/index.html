@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>McKenneth Scott III</title>
+	<link href='http://fonts.googleapis.com/css?family=Podkova:400,700|Comfortaa:400,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="css/foundation/normalize.css">
+	<link rel="stylesheet" href="css/foundation/foundation.css">
+	<link rel="stylesheet" type="text/css" href="css/owl-css/owl.theme.css">
+	<link rel="stylesheet" type="text/css" href="css/owl-css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/webicons.css">
+	<script type="text/javascript" src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+	<nav id="navbar">
+		<a href="#entry"><span>home</span></a>
+		<a href="#creations"><span>creations</span></a>
+		<a href="#about"><span>about</span></a>
+	</nav>
+	<div id="entry">
+		<h1 id="heading">McKenneth Scott III</h1>
+		<h5 id="head-blurb">Full-Stack Developer &#8596; WDI Alum &#8596; King of Gifs</h5>
+	</div>
+	<div id="creations">
+		<h1 id="create-head">Creations</h1>
+		<div class="small-12 medium-3 large-3 columns">
+			<ul><h3 id="list-info">The Joe</h3>
+				<li id="tech-list">Rails</li>
+				<li id="tech-list">JavaScript</li>
+				<li id="tech-list">RSpec/Capybara - 87% Coverage</li>
+			</ul>
+			<ul><h3 id="list-info">din.r</h3>
+				<li id="tech-list">Rails</li>
+				<li id="tech-list">JavaScript</li>
+			</ul>
+			<ul><h3 id="list-info">Gifbomb</h3>
+				<li id="tech-list">BackboneJS</li>
+				<li id="tech-list">Rails</li>
+				<li id="tech-list">In Development - <a href="https://github.com/DrRobotmck/gifbomb2">github</a></li>
+			</ul>
+		</div>
+		<div id="caruso" class="small-12 medium-9 large-9 columns owl-carousel owl-theme">
+			<div class="item"><a href = "http://the-joe.herokuapp.com" target="_blank"><img src="images/thejoe.png"></a></div>
+			<div class="item"><a href= "http://dinr.herokuapp.com" target="_blank"><img src="images/dinr.png"></a></div>
+			<div class="item"><img src="images/gifbomb.png"></div>
+		</div>
+	</div>
+	<div id="about">
+		<h1 id="about-head">About Me</h1>
+		<div class="small-12 medium-12 large-12 columns">
+			<div class=""><img class="headshot moi"src="http://farm4.staticflickr.com/3807/11836537024_1137e50ff1_o.jpg"></div>
+		</div>
+		<div class="small-12 medium-12 large-12 columns">
+
+			<div id="blurb">Hi, I'm McKenneth.<br> A Web Developer on a mission to make the Internet a beautiful place for you and me. As a graduate of General Assembly's Web Development Immersive - New York, I specialize in Ruby on Rails, JavaScript/jQuery and BDD. I am a detail-oriented, coffee-fueled thinker focused on hand-rolled design and creative solutions.</div>
+
+			<ul class="small-block-grid-4 medium-block-grid-4 link-list"><hr>
+				<li><a href="http://www.github.com/DrRobotmck" target="_blank"><img class="links" src="css/webicons/webicon-github.svg"></a></li>
+				<li><a href="http://www.linkedin.com/in/mckennethscott/" target="_blank"><img class="links" src="css/webicons/webicon-linkedin.svg"></a></li>
+				<li><a href="mailto:get@mckenneth.com"><img class="links" src="css/webicons/webicon-mail.svg"></a></li>
+				<li><a href="http://www.elmacadocious.tumblr.com" target="_blank"><img class="links" src="css/webicons/webicon-tumblr.svg"></a></li>
+
+			</ul>
+		</div>
+	</div>
+	<div id="footer"><footer>Love Chocolate Ind.</footer></div>
+
+	<!-- JavaScripts -->
+	<script type="text/javascript" src="js/vendor/jquery.js"></script>
+	<script type="text/javascript" src="js/foundation/foundation.min.js"></script>
+
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script>$(document).foundation();</script>
+	<script type="text/javascript">
+	$(function(){
+		$("#caruso").owlCarousel({
+
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true
+
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+    });
+})
+</script>
+</body>
+</html>
