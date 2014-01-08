@@ -1,0 +1,111 @@
+body{
+	text-align: left;
+	color:whitesmoke;
+}
+.whois{
+	/*background: url(http://wallpaper.thaiware.com/wallpapers/2012_03/7538_8437_120301221024_02.jpg);*/
+	background: rgba(0,0,0,.9);
+}
+.creations{
+	/*background: url(http://wallpaper.thaiware.com/wallpapers/2012_03/7538_8437_120301221024_02.jpg);*/
+	/*background:rgba(220,108,95,1);*/
+	/*background: rgba(69,51,220,1);*/
+	/*background: rgba(251,44,21,.5);*/
+	background: whitesmoke;
+	color:darkslategrey;
+}
+.contact{
+	background: rgba(56,104,169,.9);
+	/*background: rgba(251,44,21,1);*/
+}
+.face,.type{
+	top:2.5em;
+}
+.footer{
+	top: 6em;
+}
+.item img{
+	display: block;
+	height: auto;
+}
+.name{
+	top: 19em;
+}
+.name h1{
+	font-size: 5.45em;
+	text-align: center;
+	font-family: "Podkova";
+	font-weight: 400;
+	color:whitesmoke;
+	letter-spacing: 1px;
+}
+.arrow1:hover,.arrow2:hover,.arrow3:hover,.arrow4:hover{
+	cursor: pointer;
+}
+.arrow1{
+	top: 34em;
+	left: -14em;
+}
+.arrow2{
+	top:7.5em;
+	left:-15em;
+}
+.arrow3{
+	top: 1em;
+	left: -15em;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg); /* Safari and Chrome */
+}
+.arrow4{
+	top: -3em;
+	left: -14.5em;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg); /* Safari and Chrome */
+}
+h1#heading{
+	/*color:rgba(251,44,21,.5);*/
+	color: rgba(220,108,95,1);
+	text-align: center;
+	font-family: "Podkova";
+}
+.header{
+	margin-bottom: 4.5em;
+}
+h5{
+	color: whitesmoke;
+	text-align: center;
+	font-family: "Podkova";
+	letter-spacing: 1px;
+}
+#list-info{
+	color: darkslategrey;
+	font-family: "Podkova";
+	letter-spacing: 1px;
+}
+#tech-list{
+	color: :whitesmoke;
+	font-family: "Comfortaa";
+}
+.links{
+	width: 75px;
+}
+.headshot{
+	width: 300px;
+	text-align: center;
+}
+span#blurb{
+	font-family: "Comfortaa";
+	font-weight: 300;
+	line-height: 1.25em;
+	letter-spacing: 1px;
+}
+.moi{
+	border: 20px solid white;
+	border-radius: 3px 20px 20px 20px;
+}
+ul{
+	text-align: center;
+	list-style: none;
+}
